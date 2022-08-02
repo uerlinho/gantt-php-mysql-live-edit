@@ -1,7 +1,7 @@
 <?php
 	// Connect to MySQL database
 	$mysqli = new mysqli("localhost", "anygantt_user", "anygantt_pass", "anygantt_db", 18889);
-
+    // teste
 	// check connection
     if ($mysqli->connect_errno) printf('{"fail": "Connect failed: %s"}', $mysqli->connect_error);
 
